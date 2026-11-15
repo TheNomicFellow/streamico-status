@@ -1,31 +1,28 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Change these two lines to your GitHub username and repository name:
+owner: TheNomicFellow
+repo: streamico-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Streamico Web (Frontend)
+    url: https://streamico.vercel.app
+    icon: https://streamico.vercel.app/logo.png
+
+  - name: Streamico API & Database
+    url: https://streamico.vercel.app/api/health
+    expectedStatusCodes:
+      - 200
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  # Title displayed on your public status page
+  name: Streamico Status
+  introTitle: "Streamico Platform Status"
+  introMessage: "Real-time status monitoring for Streamico web application and backend API."
+  theme: dark
+  # Optional: if you have a custom domain (e.g. status.streamico.app):
+  # cname: status.streamico.app
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Notification settings (Optional: get alerts directly in Discord when down)
+# notifications:
+#   - type: discord
+#     data:
+#       DISCORD_WEBHOOK_URL: "$DISCORD_WEBHOOK_URL"
