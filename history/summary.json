@@ -23,16 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/streamico.vercel.app.ico",
     "slug": "streamico-api-and-database",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "69.06%",
+    "uptimeDay": "69.06%",
+    "uptimeWeek": "69.06%",
+    "uptimeMonth": "69.06%",
+    "uptimeYear": "69.06%",
     "time": 128,
     "timeDay": 128,
     "timeWeek": 128,
     "timeMonth": 128,
     "timeYear": 128,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-15": 0
+    }
   }
 ]
