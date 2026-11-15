@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 154,
-    "timeDay": 154,
-    "timeWeek": 154,
-    "timeMonth": 154,
-    "timeYear": 154,
+    "time": 126,
+    "timeDay": 126,
+    "timeWeek": 126,
+    "timeMonth": 126,
+    "timeYear": 126,
     "dailyMinutesDown": {}
   },
   {
@@ -22,19 +22,19 @@
     "url": "https://streamico.vercel.app/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/streamico.vercel.app.ico",
     "slug": "streamico-api-and-database",
-    "status": "down",
-    "uptime": "69.06%",
-    "uptimeDay": "69.06%",
-    "uptimeWeek": "69.06%",
-    "uptimeMonth": "69.06%",
-    "uptimeYear": "69.06%",
-    "time": 128,
-    "timeDay": 128,
-    "timeWeek": 128,
-    "timeMonth": 128,
-    "timeYear": 128,
+    "status": "up",
+    "uptime": "3.29%",
+    "uptimeDay": "3.29%",
+    "uptimeWeek": "3.29%",
+    "uptimeMonth": "3.29%",
+    "uptimeYear": "3.29%",
+    "time": 162,
+    "timeDay": 162,
+    "timeWeek": 162,
+    "timeMonth": 162,
+    "timeYear": 162,
     "dailyMinutesDown": {
-      "2026-11-15": 0
+      "2026-11-15": 9
     }
   }
 ]
