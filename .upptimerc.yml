@@ -1,5 +1,6 @@
-# Change these two lines to your GitHub username and repository name:
-owner: TheNomicFellow
+# In your .upptimerc.yml:
+
+owner: thenomicfellow
 repo: streamico-status
 
 sites:
@@ -13,16 +14,8 @@ sites:
       - 200
 
 status-website:
-  # Title displayed on your public status page
+  baseUrl: /streamico-status          # <--- ADD THIS LINE HERE
   name: Streamico Status
   introTitle: "Streamico Platform Status"
   introMessage: "Real-time status monitoring for Streamico web application and backend API."
   theme: dark
-  # Optional: if you have a custom domain (e.g. status.streamico.app):
-  # cname: status.streamico.app
-
-# Notification settings (Optional: get alerts directly in Discord when down)
-# notifications:
-#   - type: discord
-#     data:
-#       DISCORD_WEBHOOK_URL: "$DISCORD_WEBHOOK_URL"
