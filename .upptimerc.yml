@@ -18,4 +18,4 @@ status-website:
   name: Streamico Status
   introTitle: "Streamico Platform Status"
   introMessage: "Real-time status monitoring for Streamico web application and backend API."
-  theme: dark
+  theme: ocean
